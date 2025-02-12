@@ -111,3 +111,19 @@ const t = 100
 
 //t = 90
 
+
+// 1. var 
+// 1. Scope - The scope will be gloabl by default - inside a function by using a var  - local scope
+// 2. Variable declared using a var keyword it can be redeclared and reinitialised.
+// 3. It is not mandatory to assign the value of the variable at the time of declaration
+
+// let
+// 1. let - block scope {...}
+// 2. let - Variable declared using let keyword cannot be redeclared and can be reinitialised
+// 3. It is not mandatory to assign the value of the variable at the time of declaration
+
+//const
+// 1. const - block scope {...}
+// 2. const - Variable declared using const keyword cannot be redeclared and cannot be reinitialised
+// 3. It is mandatory to assign the value of the variable at the time of declaration
+
