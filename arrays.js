@@ -60,5 +60,53 @@ for(const i of array){
 
 console.log("***********Methods of an array**************");
 
+let arrays = [10,20,30,40,"TS", "JS", true, "Apple", "Orange"]
+console.log(arrays)
+
+// 2. push(element1, element2....) - add the element to the end of an array
+// Syntax
+// arrayName.push(element1, element2, ....)
+
+arrays.push(50)
+console.log("Push", arrays)
+
+// 3. pop() - Removing the element from the end of an array
+// Syntax:-
+// arrayName.pop()
+arrays.pop()
+console.log("pop", arrays)
+
+// 4. unshift(value) - Adding the element to the beginning of an array
+// Syntax:-
+// arrayName.unshift(value)
+arrays.unshift(100, 200, 300)
+console.log("unshift", arrays)
+
+// 5. shift() - Remove the element from the start of an array
+// Syntax:-
+// arrayName.shift()
+arrays.shift()
+console.log("shift", arrays)
+
+//let arrays = [200,300,10,20,30,40,'TS','JS',true,'Apple','Orange']
+
+// 6. splice()
+// Syntax:-
+// arrayName.splice(startIndex, howmany, item1, item2, item3, ....)
+// startIndex - The position where you want the add the elements
+// howmany - The number of elements you want to delete from the array
+// item1, item2, item3, .... - The elements you want to add
+
+
+arrays.splice(2, 3, "Java", "Python")
+console.log("Splice", arrays)
+
+// 7. slice()
+// Syntax:-
+// arrayName.slice(startIndex, endIndex)
+// startIndex - The position where you want to start the slice
+// endIndex - The position where you want to end the slice
+console.log(arrays.slice(-3, -1)) // -3..-1
+
 
 
